@@ -30,7 +30,7 @@ function Blogs() {
           {loading ? <h1 className='loading'>Loading...</h1> :""}
 
       <div className='blogs'>
-          {blogs ?.id ?.map(blog =>(
+          {blogs ?.articles ?.map(blog =>(
               <a className='blog' target= "_blank" href={blog.url}>
                   <img src= {blog.image} />
                   <div>
